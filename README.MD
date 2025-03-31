@@ -121,11 +121,11 @@ All files, regardless of outcome, are moved to an archive folder in SharePoint.
 
 Each email message uses a template that includes the original file name and relevant validation messages.
 
-## 🕒 Automating the Flow with Windows Task Scheduler
+### 🕒 Automating the Flow with Windows Task Scheduler
 
 You can also run the Power Automate Desktop flow automatically using Windows Task Scheduler, without relying on cloud triggers. This is useful for scenarios where you want the validation to run on a schedule (e.g., every morning at 8:00 AM).
 
-### 🔧 Setup Instructions
+#### 🔧 Setup Instructions
 
 1. Open Task Scheduler
     - Press `Win + R`
@@ -153,7 +153,7 @@ You can also run the Power Automate Desktop flow automatically using Windows Tas
 
 ![alt text](image.png)
 
-## 🔗 Useful Links and References
+### 🔗 Useful Links and References
 
 [Trigger desktop flows (official docs)](https://learn.microsoft.com/en-us/power-automate/desktop-flows/trigger-desktop-flows).
 
