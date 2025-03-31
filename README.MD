@@ -128,7 +128,9 @@ You can also run the Power Automate Desktop flow automatically using Windows Tas
 ### 🔧 Setup Instructions
 
 1. Open Task Scheduler
-    Press `Win + R`, type `taskschd.msc`, and press `Enter`.
+    - Press `Win + R`
+    - type `taskschd.msc`
+    - press `Enter`.
 
 <br>
 
@@ -137,22 +139,16 @@ You can also run the Power Automate Desktop flow automatically using Windows Tas
 <br>
 
 3. Triggers Tab
-<br>
-
-Click New… to create a trigger.
-Set the desired schedule (e.g., Daily at 08:00).
-Click OK.
+    - Click New… to create a trigger
+    - Set the desired schedule (e.g., Daily at 08:00).
+    - Click OK.
 
 <br>
 
 4. Actions Tab
-<br>
-
-Click New….
-
-Action: Start a programIn Program/script, enter: `"C:\Program Files (x86)\Power Automate Desktop\dotnet\PAD.Console.Host.exe"`
-
-In Add arguments (optional), use the following syntax: `ms-powerautomate:/console/flow/run?environmentid=...`
+    - Click New….
+    - Action: Start a programIn Program/script, enter: `"C:\Program Files (x86)\Power Automate Desktop\dotnet\PAD.Console.Host.exe"`
+    - In Add arguments (optional), use the following syntax: `ms-powerautomate:/console/flow/run?environmentid=...`
 <br>
 
 ![alt text](image.png)
